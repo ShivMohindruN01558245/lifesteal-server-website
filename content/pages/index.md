@@ -4,27 +4,30 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
-      color: text-dark
+      text: BLOODCRAFT SMP
+      color: text-red
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Minecraft Lifesteal SMP Server
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Join the ultimate Minecraft Lifesteal experience! Battle, survive, and conquer in our custom SMP world. 
+      Every heart matters - gain hearts by defeating opponents, lose them when you fall. 
+      
+      🔥 **Server IP:** play.lifesteal.space
+      
+      💬 Join our Discord community for updates, events, and to connect with other players!
     actions:
-      - label: Get started
-        altText: ''
+      - label: Copy Server IP
+        altText: 'Copy play.lifesteal.space to clipboard'
         url: /
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: secondary
-        elementId: ''
+        elementId: 'copy-ip-btn'
         type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
+      - label: Join Discord
+        altText: 'Join our Discord server'
+        url: https://discord.gg/bloodcraft
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -32,45 +35,44 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      url: /images/bloodcraft-logo.png
+      altText: Bloodcraft SMP Server Logo
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
-      color: text-primary
+      label: play.lifesteal.space
+      color: text-red
       type: Badge
     elementId: ''
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-16
+          - pt-20
           - pl-16
-          - pb-16
+          - pb-20
           - pr-16
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
-      color: text-dark
+      text: Key Features
+      color: text-red
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: What makes Bloodcraft SMP special
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: ❤️ Lifesteal Mode
+        subtitle: Hearts Matter
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Gain hearts by defeating other players and lose hearts when you die. 
+          Strategic combat where every battle counts. Can you become the strongest?
         actions: []
         elementId: null
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -84,25 +86,24 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Lifesteal hearts icon
           elementId: ''
-          url: /images/icon1.svg
+          url: /images/lifesteal-icon.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: ⚔️ Custom Events
+        subtitle: Epic Battles
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Regular events including tournaments, treasure hunts, and massive PvP battles. 
+          Compete for exclusive rewards and bragging rights in our community.
         image:
-          url: /images/icon2.svg
-          altText: Featured icon two
+          url: /images/events-icon.svg
+          altText: Custom events icon
           elementId: ''
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -115,19 +116,18 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: 🏰 Friendly Community
+        subtitle: Active Players
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Join hundreds of active players in our welcoming community. 
+          Make allies, form teams, or go solo - the choice is yours in Bloodcraft SMP.
         image:
-          url: /images/icon3.svg
-          altText: Featured icon three
+          url: /images/community-icon.svg
+          altText: Community icon
           elementId: ''
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -139,8 +139,8 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
-        altText: ''
+      - label: Join Now
+        altText: 'Join the server now'
         url: /
         showIcon: false
         icon: arrowRight
@@ -149,8 +149,8 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
-      color: text-primary
+      label: Server Features
+      color: text-red
       styles:
         self:
           textAlign: center
@@ -168,31 +168,31 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle: Trusted by Minecraft players worldwide
     images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
+      - url: /images/minecraft-logo.svg
+        altText: Minecraft logo
         type: ImageBlock
-      - url: /images/wellster-logo.svg
-        altText: Wellster logo
+      - url: /images/lifesteal-badge.svg
+        altText: Lifesteal mode badge
         type: ImageBlock
-      - url: /images/vise-logo.svg
-        altText: Vise logo
+      - url: /images/smp-badge.svg
+        altText: SMP server badge
         type: ImageBlock
-      - url: /images/telus-logo.svg
-        altText: Telus logo
+      - url: /images/pvp-badge.svg
+        altText: PvP enabled badge
         type: ImageBlock
-      - url: /images/contenful-logo.svg
-        altText: Contentful logo
+      - url: /images/events-badge.svg
+        altText: Custom events badge
         type: ImageBlock
-      - url: /images/sanity-logo.svg
-        altText: Sanity logo
+      - url: /images/community-badge.svg
+        altText: Active community badge
         type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
+      - url: /images/24-7-badge.svg
+        altText: 24/7 uptime badge
         type: ImageBlock
     motion: move-to-left
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         justifyContent: center
@@ -200,14 +200,14 @@ sections:
         textAlign: center
     type: ImageGallerySection
   - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
+      - content/pages/blog/server-update-1.md
+      - content/pages/blog/lifesteal-guide.md
+      - content/pages/blog/community-spotlight.md
     showThumbnail: true
     showDate: true
     showAuthor: true
     variant: three-col-grid
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         padding:
@@ -219,7 +219,7 @@ sections:
     type: FeaturedPostsSection
     hoverEffect: move-up
   - title: Divider
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         padding:
@@ -229,22 +229,22 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Grow your business 10x faster
-      color: text-dark
+      text: Ready to Start Your Adventure?
+      color: text-red
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
+    subtitle: Join thousands of players in the ultimate Lifesteal experience
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Connect to play.lifesteal.space and begin your journey in Bloodcraft SMP. 
+      Whether you're a seasoned PvP veteran or new to Lifesteal mode, our server 
+      offers the perfect balance of challenge and fun. Build your base, gather resources, 
+      and prepare for battle in our thriving Minecraft community.
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
+      title: Bloodcraft SMP Gameplay Trailer
+      url: /images/bloodcraft-trailer.mp4
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -253,22 +253,22 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
+          borderColor: border-red
           borderStyle: solid
-          borderWidth: 1
+          borderWidth: 2
           borderRadius: large
       type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
+      autoplay: false
+      loop: false
+      muted: false
     badge:
-      label: Key Benefits
-      color: text-primary
+      label: Server Trailer
+      color: text-red
       styles:
         self:
           textAlign: center
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         flexDirection: col
@@ -278,22 +278,35 @@ sections:
     type: GenericSection
   - type: GenericSection
     title:
-      text: Generic section with a video
-      color: text-dark
+      text: Server Rules & Guidelines
+      color: text-red
       styles:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    subtitle: Play fair, have fun, respect others
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
+      Our server maintains a fun and fair environment for all players. 
+      Basic rules include no hacking, no griefing spawn areas, and respect 
+      for all community members. PvP is encouraged everywhere except spawn zones. 
+      Check our Discord for the complete rulebook and updates.
+    actions:
+      - label: Read Full Rules
+        url: /rules
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
+      - label: Report Issues
+        url: /support
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Link
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
+      title: Server Rules Overview
+      url: /images/rules-preview.mp4
       autoplay: true
       loop: true
       muted: true
@@ -306,13 +319,13 @@ sections:
             - pb-2
             - pl-2
             - pr-2
-          borderColor: border-dark
+          borderColor: border-red
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
       type: VideoBlock
     elementId: null
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         flexDirection: row
@@ -320,78 +333,78 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: Social Media Management
-      color: text-dark
+      text: PvP Combat System
+      color: text-red
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: Master the art of Lifesteal combat
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Our unique Lifesteal system adds strategy to every fight. Learn combat mechanics, 
+      heart management, and advanced PvP techniques to dominate the battlefield.
     actions:
-      - label: Get started
-        url: /
+      - label: Combat Guide
+        url: /pvp-guide
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
+      - label: Practice Arena
+        url: /arena
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Link
     media:
-      url: /images/hero2.svg
-      altText: Fun feature preview
+      url: /images/pvp-combat.svg
+      altText: PvP combat illustration
       type: ImageBlock
     badge:
-      label: This is a badge
-      color: text-primary
+      label: Combat System
+      color: text-red
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         alignItems: center
     type: GenericSection
   - title:
-      text: Business Consulting
-      color: text-dark
+      text: Community & Events
+      color: text-red
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: Join our active Discord community
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Connect with fellow players, participate in tournaments, and stay updated 
+      on server events. Our Discord is the hub for all Bloodcraft SMP activities.
     actions:
-      - label: Get started
-        url: /
+      - label: Join Discord
+        url: https://discord.gg/bloodcraft
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
+      - label: Event Calendar
+        url: /events
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Link
     media:
-      url: /images/hero3.svg
-      altText: Dope design preview
+      url: /images/discord-community.svg
+      altText: Discord community illustration
       type: ImageBlock
     badge:
-      label: This is a badge
-      color: text-primary
+      label: Active Community
+      color: text-red
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         alignItems: center
         flexDirection: row-reverse
     type: GenericSection
   - title: Divider
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         padding:
@@ -402,20 +415,18 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: What our players say about Bloodcraft SMP
     items:
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
+          "Best Lifesteal server I've ever played on! The community is amazing and the PvP is intense."
+        tagline: Player Review
+        subtitle: 'MinecraftPro2024, Discord'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Been playing for months now and the server keeps getting better. 
+          Regular events, active staff, and the Lifesteal mechanics are perfectly balanced.
         image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          url: /images/player-avatar-1.png
+          altText: Player avatar
           styles:
             self:
               borderRadius: full
@@ -435,16 +446,15 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
+          "Great server with fair rules and active moderation. Perfect place to learn Lifesteal PvP!"
+        tagline: Player Review
+        subtitle: 'CraftMaster, In-Game'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Started as a beginner and the community helped me improve. 
+          Now I'm competing in tournaments and having a blast!
         image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
+          url: /images/player-avatar-2.png
+          altText: Player avatar
           styles:
             self:
               borderRadius: full
@@ -464,16 +474,15 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
+          "The custom events are incredible! Always something exciting happening on Bloodcraft."
+        tagline: Player Review
+        subtitle: 'PvPKing99, Discord'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Love the variety of events and challenges. The server never gets boring 
+          and there's always a new goal to work towards.
         image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          url: /images/player-avatar-3.png
+          altText: Player avatar
           styles:
             self:
               borderRadius: full
@@ -493,17 +502,15 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
+          "Friendly staff, great community, and the best Lifesteal experience you can find!"
+        tagline: Player Review
+        subtitle: 'RedstoneWiz, Discord'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Been part of many servers but Bloodcraft feels like home. 
+          The balance between PvP and community is perfect.
         image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          url: /images/player-avatar-4.png
+          altText: Player avatar
           styles:
             self:
               borderRadius: full
@@ -523,16 +530,15 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
+          "Amazing server with constant updates and improvements. Highly recommend!"
+        tagline: Player Review
+        subtitle: 'BlockBuilder2023, In-Game'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          The developers really care about the player experience. 
+          Regular updates and they actually listen to community feedback.
         image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          url: /images/player-avatar-5.png
+          altText: Player avatar
           styles:
             self:
               borderRadius: full
@@ -552,16 +558,15 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
+          "Join Bloodcraft SMP - you won't regret it! Best Minecraft server experience ever."
+        tagline: Player Review
+        subtitle: 'DiamondHunter, Discord'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          From newbie-friendly guidance to hardcore PvP action, 
+          this server has everything a Minecraft player could want.
         image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
+          url: /images/player-avatar-6.png
+          altText: Player avatar
           styles:
             self:
               borderRadius: full
@@ -582,34 +587,34 @@ sections:
         type: FeaturedItem
     elementId: null
     variant: next-prev-nav
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         justifyContent: center
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
-      color: text-primary
+      text: Server Features & Plugins
+      color: text-red
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Enhanced gameplay with custom features
     items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Lifesteal Core
+        tagline: Heart System
+        subtitle: Gain and lose hearts through combat
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          Our custom Lifesteal plugin creates intense PvP battles where every heart counts.
         image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          url: /images/lifesteal-core.svg
+          altText: Lifesteal core feature
           styles:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -620,19 +625,19 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Custom Events
+        tagline: Regular Activities
+        subtitle: Tournaments, hunts, and special events
         text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+          Weekly tournaments, treasure hunts, and seasonal events keep the server exciting.
         image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
+          url: /images/custom-events.svg
+          altText: Custom events feature
           styles:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -643,19 +648,19 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Economy System
+        tagline: Trade & Commerce
+        subtitle: Player-driven economy with shops
         text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
+          Set up shops, trade with players, and build your wealth in our balanced economy.
         image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
+          url: /images/economy-system.svg
+          altText: Economy system feature
           styles:
             self:
               borderRadius: x-large
           type: ImageBlock
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -680,38 +685,38 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - title:
-      text: Generic Section With A Form
-      color: text-dark
+      text: Join Bloodcraft SMP Today
+      color: text-red
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Ready to start your Lifesteal adventure?
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Connect to our server and become part of the Bloodcraft community. 
+      Whether you're here for intense PvP battles, building epic bases, or making new friends, 
+      our server has something for everyone. Join us today and see why thousands of players 
+      choose Bloodcraft SMP as their Minecraft home.
     media:
       fields:
-        - name: name
-          label: Name
-          hideLabel: true
-          placeholder: Your name
+        - name: username
+          label: Minecraft Username
+          hideLabel: false
+          placeholder: Enter your Minecraft username
           isRequired: true
           width: full
           type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Your email
-          isRequired: true
+        - name: discord
+          label: Discord Username (Optional)
+          hideLabel: false
+          placeholder: YourName#1234
+          isRequired: false
           width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Your message
+          type: TextFormControl
+        - name: experience
+          label: PvP Experience Level
+          hideLabel: false
+          placeholder: Beginner, Intermediate, or Advanced
           width: full
-          type: TextareaFormControl
-      elementId: contact-form
+          type: TextFormControl
+      elementId: join-server-form
       styles:
         self:
           padding:
@@ -719,29 +724,29 @@ sections:
             - pb-6
             - pl-6
             - pr-6
-          borderColor: border-dark
+          borderColor: border-red
           borderStyle: solid
-          borderWidth: 1
+          borderWidth: 2
           borderRadius: large
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
+        label: Get Server Info
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: null
     badge:
-      label: Contact Us
-      color: text-primary
+      label: Server IP: play.lifesteal.space
+      color: text-red
       type: Badge
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-red
     type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Bloodcraft SMP - Minecraft Lifesteal Server | play.lifesteal.space
+  metaDescription: Join Bloodcraft SMP, the ultimate Minecraft Lifesteal server! Battle players, gain hearts, and survive in our thriving PvP community. Connect now at play.lifesteal.space
+  socialImage: /images/bloodcraft-social.jpg
   type: Seo
 type: PageLayout
 ---
