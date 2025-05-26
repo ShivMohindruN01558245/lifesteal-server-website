@@ -54,6 +54,7 @@ sections:
           - pl-16
           - pb-20
           - pr-16
+
   - type: FeaturedItemsSection
     title:
       text: Key Features
@@ -157,7 +158,7 @@ sections:
       type: Badge
     elementId: ""
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         padding:
@@ -168,29 +169,96 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+
+  # Discord Section is moved up here!
+  - title:
+      text: "Community & Events"
+      color: text-red
+      type: TitleBlock
+    subtitle: "Join our active Discord community"
+    text: >
+      Connect with fellow players, participate in tournaments, and stay updated 
+      on server events. Our Discord is the hub for all Bloodcraft SMP activities.
+    actions:
+      - label: "Join Discord"
+        url: https://discord.gg/bloodcraft
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
+      - label: "Event Calendar"
+        url: /events
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Link
+    media:
+      url: /images/discord-community.svg
+      altText: Discord community illustration
+      type: ImageBlock
+    badge:
+      label: "Active Community"
+      color: text-red
+      type: Badge
+    colors: bg-dark-fg-red
+    styles:
+      self:
+        alignItems: center
+        flexDirection: row-reverse
+    type: GenericSection
+
   - subtitle: "Trusted by Minecraft players worldwide"
     images:
       - url: /images/minecraft-logo.svg
         altText: Minecraft logo
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
       - url: /images/lifesteal-badge.svg
         altText: Lifesteal mode badge
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
       - url: /images/smp-badge.svg
         altText: SMP server badge
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
       - url: /images/pvp-badge.svg
         altText: PvP enabled badge
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
       - url: /images/events-badge.svg
         altText: Custom events badge
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
       - url: /images/community-badge.svg
         altText: Active community badge
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
       - url: /images/24-7-badge.svg
         altText: 24/7 uptime badge
         type: ImageBlock
+        styles:
+          self:
+            width: 60px
+            height: 60px
     motion: move-to-left
     colors: bg-dark-fg-red
     styles:
@@ -199,6 +267,7 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
+
   - posts:
       - content/pages/blog/server-update-1.md
       - content/pages/blog/lifesteal-guide.md
@@ -218,6 +287,7 @@ sections:
         justifyContent: center
     type: FeaturedPostsSection
     hoverEffect: move-up
+
   - title: "Divider"
     colors: bg-dark-fg-red
     styles:
@@ -228,6 +298,7 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+
   - title:
       text: "Ready to Start Your Adventure?"
       color: text-red
@@ -276,6 +347,7 @@ sections:
       subtitle:
         textAlign: center
     type: GenericSection
+
   - type: GenericSection
     title:
       text: "Server Rules & Guidelines"
@@ -332,6 +404,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
+
   - title:
       text: "PvP Combat System"
       color: text-red
@@ -367,42 +440,7 @@ sections:
       self:
         alignItems: center
     type: GenericSection
-  - title:
-      text: "Community & Events"
-      color: text-red
-      type: TitleBlock
-    subtitle: "Join our active Discord community"
-    text: >
-      Connect with fellow players, participate in tournaments, and stay updated 
-      on server events. Our Discord is the hub for all Bloodcraft SMP activities.
-    actions:
-      - label: "Join Discord"
-        url: https://discord.gg/bloodcraft
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: "Event Calendar"
-        url: /events
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/discord-community.svg
-      altText: Discord community illustration
-      type: ImageBlock
-    badge:
-      label: "Active Community"
-      color: text-red
-      type: Badge
-    colors: bg-dark-fg-red
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-    type: GenericSection
+
   - title: "Divider"
     colors: bg-dark-fg-red
     styles:
@@ -413,6 +451,7 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+
   - type: CarouselSection
     title: null
     subtitle: "What our players say about Bloodcraft SMP"
@@ -432,7 +471,7 @@ sections:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -460,7 +499,7 @@ sections:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -488,7 +527,7 @@ sections:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -516,7 +555,7 @@ sections:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -544,7 +583,7 @@ sections:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -572,7 +611,7 @@ sections:
               borderRadius: full
           type: ImageBlock
         actions: []
-        colors: bg-dark-fg-light
+        colors: bg-dark-fg-red
         styles:
           self:
             padding:
@@ -593,6 +632,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+
   - title:
       text: "Server Features & Plugins"
       color: text-red
@@ -672,7 +712,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-dark-fg-red
     styles:
       self:
         padding:
@@ -684,6 +724,7 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
+
   - title:
       text: "Join Bloodcraft SMP Today"
       color: text-red
@@ -743,6 +784,7 @@ sections:
       type: Badge
     colors: bg-dark-fg-red
     type: GenericSection
+
 seo:
   metaTitle: "Bloodcraft SMP - Minecraft Lifesteal Server | play.lifesteal.space"
   metaDescription: "Join Bloodcraft SMP, the ultimate Minecraft Lifesteal server! Battle players, gain hearts, and survive in our thriving PvP community. Connect now at play.lifesteal.space"
